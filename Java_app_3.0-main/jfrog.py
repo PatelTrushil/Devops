@@ -1,7 +1,7 @@
 import requests
 
 def JFrog():
-    url = 'http://54.153.123.248:8082/artifactory/example-repo-local/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar'
+    url = 'http://18.144.176.165:8082/artifactory/example-repo-local/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar'
     filepath ='/home/ubuntu/Devops/Java_app_3.0-main/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar'
     user_name = 'admin'
     password = 'Admin@123'
